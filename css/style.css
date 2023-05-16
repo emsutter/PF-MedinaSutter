@@ -46,7 +46,7 @@ header{
     color: #212529;
 }
 .card img{
-    height: 750px;
+    max-height: 750px;
 }
 footer{
     display: flex;
