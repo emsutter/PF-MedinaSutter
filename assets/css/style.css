@@ -5,7 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 	background-color: burlywood;
-    background-image: url("/assets/img/Imagen_Fondo.png");
+    background-image: url("../assets/img/Imagen_Fondo.png");
 	overflow-x: hidden;
 }
 header{
