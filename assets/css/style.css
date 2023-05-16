@@ -49,6 +49,13 @@ header{
 .card img{
     max-height: 750px;
 }
+.containerSobreMi{
+    background-color: burlywood;
+    display: flex;
+}
+.containerSobreMi .tituloSobreMi{
+    font-family: 'Times New Roman', Times, serif;
+}
 footer{
     background-color: #212529;
     display: flex;
