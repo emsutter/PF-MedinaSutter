@@ -5,6 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 	background-color: burlywood;
+    background-image: url("/assets/img/Imagen_Fondo.png");
 	overflow-x: hidden;
 }
 header{
@@ -49,6 +50,7 @@ header{
     max-height: 750px;
 }
 footer{
+    background-color: #212529;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,6 +59,7 @@ footer{
     margin-top: 10px;
 }
 .derechos{
+    color: white;
     font-size: 15px;
     font-style: italic;
     text-align: center;
