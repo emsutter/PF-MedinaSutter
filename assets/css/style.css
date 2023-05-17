@@ -46,6 +46,14 @@ header{
     background-color: #FA8900;
     color: #212529;
 }
+.carousel-control-prev{
+    top: 400px;
+    height: 30px;
+}
+.carousel-control-next{
+    top: 400px;
+    height: 30px;
+}
 .card img{
     max-height: 750px;
 }
