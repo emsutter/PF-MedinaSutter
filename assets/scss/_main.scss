@@ -1,0 +1,61 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .carousel-indicators {
+        justify-content: end;
+    }
+    
+    .card {
+        margin: auto;
+        .btn {
+            background-color: $naranja-botones;
+            color: $azul-profundo;
+        }
+    }
+    .carousel-control {
+        top: 400px;
+        height: 150px; 
+    }
+
+    .carousel-control-prev{
+        @extend .carousel-control;
+    }
+    .carousel-control-next{
+        @extend .carousel-control;
+    }
+
+    .card {
+        img {
+            max-height: 750px;
+        }
+    }
+}
+
+.containerSobreMi{
+    background-color: $fondo_sobre_mi;
+    display: flex;
+
+    .tituloSobreMi{
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.containerForm {
+    background-color: $fondo-sobre-mi;
+    justify-content: center;
+    .formContacto {
+        display: grid;
+        margin-inline: auto;
+        padding-bottom: 20px;
+        grid-template-rows: 4rem 4fr;
+        width: 5rem;
+    }
+    h3 {
+        text-align: center;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+}

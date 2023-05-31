@@ -1,0 +1,26 @@
+header {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-block: 30px;
+    padding-left: 40px;
+    border-bottom: solid 1px $gris;
+    background-color: $gris-claro;
+
+    .nav-item {
+        &:hover {
+            border-radius: 5px;
+            border: solid 1px $negro;
+        }
+        .nav-link {
+            color: $negro;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.2rem;
+            line-height: 2.5rem;
+            padding-inline: 30px;
+        }
+    }
+}

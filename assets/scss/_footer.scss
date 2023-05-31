@@ -1,0 +1,38 @@
+footer{
+    background-color: $azul-profundo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top: solid 1px $gris;
+    margin-top: 10px;
+
+    .derechos {
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        padding-inline: 30px;
+    }
+
+    .redSociales{
+        display: flex;
+        list-style: none;
+        padding-left: 15px;
+
+        li {
+            a {
+                padding: 10px;
+            }
+        }
+    }
+
+    .redSocial{
+        display: inline;
+        width: 30px;
+    }
+    
+    .formContacto{
+        padding-left: 30px;
+    }
+}

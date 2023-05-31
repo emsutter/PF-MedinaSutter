@@ -1,97 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-	background-color: burlywood;
-    background-image: url("../img/Imagen_Fondo.png");
-	overflow-x: hidden;
-}
-header{
-    font-family: 'Roboto Flex', sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-block: 30px;
-    padding-left: 40px;
-    border-bottom: solid 1px grey;
-    background-color: lightgrey;
-}
-.nav-item:hover{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+  background-image: url("../img/Imagen_Fondo.png");
+  overflow-x: hidden; }
+
+header {
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-block: 30px;
+  padding-left: 40px;
+  border-bottom: solid 1px grey;
+  background-color: lightgrey; }
+  header .nav-item:hover {
     border-radius: 5px;
-    border: solid 1px black;
-}
-.nav-link{
+    border: solid 1px black; }
+  header .nav-item .nav-link {
     color: black;
-	font-weight: 600;
-	text-decoration: none;
-	font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2rem;
     line-height: 2.5rem;
-    padding-inline: 30px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.carousel-indicators{
-    justify-content: end;
-}
-.card{
+    padding-inline: 30px; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .row .carousel-indicators {
+    justify-content: end; }
+  .row .card {
+    margin: auto; }
+    .row .card .btn {
+      background-color: #FA8900;
+      color: #212529; }
+  .row .carousel-control, .row .carousel-control-prev, .row .carousel-control-next {
+    top: 400px;
+    height: 150px; }
+  .row .card img {
+    max-height: 750px; }
+
+.containerSobreMi {
+  background-color: burlywood;
+  display: flex; }
+  .containerSobreMi .tituloSobreMi {
+    font-family: 'Times New Roman', Times, serif; }
+
+.containerForm {
+  background-color: burlywood;
+  justify-content: center; }
+  .containerForm .formContacto {
+    display: grid;
+    margin-inline: auto;
+    padding-bottom: 20px;
+    grid-template-rows: 4rem 4fr;
+    width: 5rem; }
+  .containerForm h3 {
+    text-align: center;
     margin: auto;
-}
-.card .btn{
-    background-color: #FA8900;
-    color: #212529;
-}
-.carousel-control-prev{
-    top: 400px;
-    height: 30px;
-}
-.carousel-control-next{
-    top: 400px;
-    height: 30px;
-}
-.card img{
-    max-height: 750px;
-}
-.containerSobreMi{
-    background-color: burlywood;
-    display: flex;
-}
-.containerSobreMi .tituloSobreMi{
-    font-family: 'Times New Roman', Times, serif;
-}
-footer{
-    background-color: #212529;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 30px;
-    border-top: solid 1px grey;
-    margin-top: 10px;
-}
-.derechos{
+    padding-top: 15px;
+    padding-bottom: 20px; }
+
+footer {
+  background-color: #212529;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: solid 1px grey;
+  margin-top: 10px; }
+  footer .derechos {
     color: white;
     font-size: 15px;
     font-style: italic;
     text-align: center;
-    padding-inline: 30px;
-}
-.redSociales{
+    padding-inline: 30px; }
+  footer .redSociales {
     display: flex;
     list-style: none;
-    padding-left: 15px;
-}
-.redSociales li a{
-    padding: 10px;
-}
-.redSocial{
+    padding-left: 15px; }
+    footer .redSociales li a {
+      padding: 10px; }
+  footer .redSocial {
     display: inline;
-	width: 30px;
-}
-.formContacto{
-    padding-left: 30px;
-}
+    width: 30px; }
+  footer .formContacto {
+    padding-left: 30px; }
