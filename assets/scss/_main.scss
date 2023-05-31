@@ -33,6 +33,30 @@
     }
 }
 
+.containerfaq {
+    margin-top: 50px;
+    margin-inline: 1%;
+    .btn {
+        display: flex;
+        
+        h3 {
+            padding-inline: 20px;
+        }
+    }
+
+    .card {
+        width: 1500px;
+        max-width: 100%;
+    }
+    a {
+        width: 30px;
+    }
+    img {
+        width: 20px;
+        margin: auto;
+    }
+}
+
 .containerSobreMi{
     background-color: $fondo_sobre_mi;
     display: flex;

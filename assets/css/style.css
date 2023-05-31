@@ -6,7 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: burlywood;
-  background-image: url("../img/Imagen_Fondo.png");
+  background-image: url("../img/Imagen_Fondo.jpg ");
   overflow-x: hidden; }
 
 header {
@@ -47,6 +47,22 @@ header {
     height: 150px; }
   .row .card img {
     max-height: 750px; }
+
+.containerfaq {
+  margin-top: 50px;
+  margin-inline: 1%; }
+  .containerfaq .btn {
+    display: flex; }
+    .containerfaq .btn h3 {
+      padding-inline: 20px; }
+  .containerfaq .card {
+    width: 1500px;
+    max-width: 100%; }
+  .containerfaq a {
+    width: 30px; }
+  .containerfaq img {
+    width: 20px;
+    margin: auto; }
 
 .containerSobreMi {
   background-color: burlywood;
