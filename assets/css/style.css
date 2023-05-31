@@ -21,6 +21,7 @@ header {
   background-color: lightgrey; }
   header .nav-item:hover {
     border-radius: 5px;
+    background-color: lightcyan;
     border: solid 1px black; }
   header .nav-item .nav-link {
     color: black;
