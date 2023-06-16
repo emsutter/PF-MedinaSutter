@@ -1,40 +1,62 @@
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.containerIndex {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-    .carousel-indicators {
-        justify-content: end;
-    }
-    
-    .card {
-        margin: auto;
-        .btn {
-            background-color: $naranja-botones;
-            color: $azul-profundo;
+        .col-lg-5 {
+            margin-block: 15px;
+        }
+        .carousel-indicators {
+            justify-content: end;
+        }
+        
+        .card {
+            margin: auto;
+            .btn {
+                background-color: $naranja-botones;
+                color: $azul-profundo;
+            }
+        }
+        .carousel-control {
+            top: 400px;
+            height: 150px; 
+        }
+
+        .carousel-control-prev{
+            @extend .carousel-control;
+        }
+        .carousel-control-next{
+            @extend .carousel-control;
+        }
+
+        .card {
+            img {
+                max-height: 750px;
+            }
         }
     }
-    .carousel-control {
-        top: 400px;
-        height: 150px; 
-    }
+}
 
-    .carousel-control-prev{
-        @extend .carousel-control;
-    }
-    .carousel-control-next{
-        @extend .carousel-control;
-    }
+.containerAyuda {
+    background-color: grey;
+    padding: 15px;
+    margin-top: 50px;
+    margin-inline: 1%;
 
-    .card {
-        img {
-            max-height: 750px;
-        }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    a {
+        text-decoration: none;
+        color: $naranja-botones;
     }
 }
 
 .containerfaq {
     margin-top: 50px;
+    height: 80%;
     margin-inline: 1%;
     .btn {
         display: flex;
@@ -53,22 +75,42 @@
     }
     img {
         width: 20px;
-        margin: auto;
     }
 }
 
 .containerSobreMi{
     background-color: $fondo_sobre_mi;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    min-height: 80vh;
+    padding-inline: 1%;
+    margin: 2%;
+    padding: 0px;
 
-    .tituloSobreMi{
+    .col {
+        height: 33%;
+        padding-block: 20px;
+    }
+
+    .col-12 {
+        @extend .col;
+    }
+    .col-6 {
+        @extend .col;
+    }
+    
+    .tituloSobreMi {
         font-family: 'Times New Roman', Times, serif;
     }
 }
 
 .containerForm {
+    margin: auto;
+    margin-top: 20px;
     background-color: $fondo-sobre-mi;
-    justify-content: center;
+    width: 95vw;
     .formContacto {
         display: grid;
         margin-inline: auto;
@@ -81,5 +123,31 @@
         margin: auto;
         padding-top: 15px;
         padding-bottom: 20px;
+    }
+}
+
+.containerContactos {
+    padding-inline: auto;
+    padding-top: 1%;
+    
+    .infoContacto {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedorMapa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 15px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    h6 {
+        padding-inline: 10px;
     }
 }

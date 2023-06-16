@@ -31,25 +31,40 @@ header {
     line-height: 2.5rem;
     padding-inline: 30px; }
 
-.row {
+.containerIndex .row {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .row .carousel-indicators {
+  .containerIndex .row .col-lg-5 {
+    margin-block: 15px; }
+  .containerIndex .row .carousel-indicators {
     justify-content: end; }
-  .row .card {
+  .containerIndex .row .card {
     margin: auto; }
-    .row .card .btn {
+    .containerIndex .row .card .btn {
       background-color: #FA8900;
       color: #212529; }
-  .row .carousel-control, .row .carousel-control-prev, .row .carousel-control-next {
+  .containerIndex .row .carousel-control, .containerIndex .row .carousel-control-prev, .containerIndex .row .carousel-control-next {
     top: 400px;
     height: 150px; }
-  .row .card img {
+  .containerIndex .row .card img {
     max-height: 750px; }
+
+.containerAyuda {
+  background-color: grey;
+  padding: 15px;
+  margin-top: 50px;
+  margin-inline: 1%; }
+  .containerAyuda img {
+    max-width: 100%;
+    height: auto; }
+  .containerAyuda a {
+    text-decoration: none;
+    color: #FA8900; }
 
 .containerfaq {
   margin-top: 50px;
+  height: 80%;
   margin-inline: 1%; }
   .containerfaq .btn {
     display: flex; }
@@ -61,18 +76,29 @@ header {
   .containerfaq a {
     width: 30px; }
   .containerfaq img {
-    width: 20px;
-    margin: auto; }
+    width: 20px; }
 
 .containerSobreMi {
   background-color: burlywood;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  min-height: 80vh;
+  padding-inline: 1%;
+  margin: 2%;
+  padding: 0px; }
+  .containerSobreMi .col, .containerSobreMi .col-12, .containerSobreMi .col-6 {
+    height: 33%;
+    padding-block: 20px; }
   .containerSobreMi .tituloSobreMi {
     font-family: 'Times New Roman', Times, serif; }
 
 .containerForm {
+  margin: auto;
+  margin-top: 20px;
   background-color: burlywood;
-  justify-content: center; }
+  width: 95vw; }
   .containerForm .formContacto {
     display: grid;
     margin-inline: auto;
@@ -84,6 +110,26 @@ header {
     margin: auto;
     padding-top: 15px;
     padding-bottom: 20px; }
+
+.containerContactos {
+  padding-inline: auto;
+  padding-top: 1%; }
+  .containerContactos .infoContacto {
+    padding-block: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .containerContactos .contenedorMapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px; }
+  .containerContactos img {
+    width: 50px;
+    height: 50px; }
+  .containerContactos h6 {
+    padding-inline: 10px; }
 
 footer {
   background-color: #212529;
