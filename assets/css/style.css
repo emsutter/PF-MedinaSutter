@@ -31,23 +31,23 @@ header {
     line-height: 2.5rem;
     padding-inline: 30px; }
 
-.containerIndex .row {
+.container .row {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .containerIndex .row .col-lg-5 {
+  .container .row .col-lg-5 {
     margin-block: 15px; }
-  .containerIndex .row .carousel-indicators {
+  .container .row .carousel-indicators {
     justify-content: end; }
-  .containerIndex .row .card {
+  .container .row .card {
     margin: auto; }
-    .containerIndex .row .card .btn {
+    .container .row .card .btn {
       background-color: #FA8900;
       color: #212529; }
-  .containerIndex .row .carousel-control, .containerIndex .row .carousel-control-prev, .containerIndex .row .carousel-control-next {
+  .container .row .carousel-control, .container .row .carousel-control-prev, .container .row .carousel-control-next {
     top: 400px;
     height: 150px; }
-  .containerIndex .row .card img {
+  .container .row .card img {
     max-height: 750px; }
 
 .containerAyuda {
